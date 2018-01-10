@@ -1,0 +1,130 @@
+body
+{
+	font-family: sans-serif;
+
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+#navigation
+{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#centre
+{
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 150px;
+	width: 100%;
+	
+}
+
+.champ
+{
+	width: 500px;
+	box-shadow: grey 3px 3px 10px ;
+}
+
+#buttons
+{
+	display: flex;
+	justify-content: space-around;
+	font-weight: bold;
+	margin-top: 20px;	
+
+}
+
+.button2
+{
+	font-weight: bold;
+	color: grey;
+	background-color: beige;
+	margin-right: 15px;
+}
+
+.button3
+{
+	font-weight: bold;
+	color: white;
+	background-color: blue;
+}
+
+#footer
+{
+	
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+
+#bas
+{
+	margin-top: 10px;
+	margin-bottom: 2px;
+	display: flex;
+	justify-content: space-between;
+
+	
+
+}
+
+#Pays
+{
+	background-color: beige;
+	color: grey;
+}
+
+.noir
+{
+	color: black;
+	text-decoration: none;
+}
+
+.gris
+{
+	color: grey;
+	text-decoration: none;
+}
+
+#premiers_footers
+{
+
+display: flex;
+justify-content :flex-start;
+background-color: beige;
+color: grey;
+	
+}
+
+#derniers_footers
+{
+
+display: flex;
+justify-content: flex-end;
+background-color: beige;
+color: grey;
+
+}
+
+ul
+{
+	list-style-type: none;
+
+}
+
+li
+{
+	margin-right: 8px;
+	list-style-type: none;
+}
